@@ -26,37 +26,86 @@
     <main>
         <div class="block">
            <div></div>
-           <div class="topic" onclick="test()">Urgent</div>
+           <div class="topic" >Urgent</div>
            <div class="topic">Not urgent</div>
            <div class="topic"><div class="vertical">important</div></div>
-           <div class="pink box b_1">
-<!--               <div>Lorem ipsum dolor sit amet</div>-->
-<!--               <div>Lorem ipsum dolor sit amet</div>-->
+           <div class="pink box b_1 scroll">
+                <div class="team">
+                   <div class="point" onclick="test1()">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</div>
+                   <div><img class="icon" src="css/img/pen.png"/></div>
+                    <div><img class="icon" src="css/img/bucket.png"></div>
+                </div>
+                <div class="team">
+                   <div class="point" onclick="test1()">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</div>
+                   <div><img class="icon" src="css/img/pen.png"/></div>
+                    <div><img class="icon" src="css/img/bucket.png"></div>
+                </div>
+                <div class="team">
+                   <div class="point" onclick="test1()">Lorem ipsum dolor </div>
+                   <div><img class="icon" src="css/img/pen.png"/></div>
+                    <div><img class="icon" src="css/img/bucket.png"></div>
+                </div>
+                <div class="team">
+                   <div class="point" onclick="test1()">Lorem ipsum dolor sit amet ipsum </div>
+                   <div><img class="icon" src="css/img/pen.png"/></div>
+                    <div><img class="icon" src="css/img/bucket.png"></div>
+                </div>
+               <div class="team">
+                   <div class="point" onclick="test1()">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</div>
+                   <div><img class="icon" src="css/img/pen.png"/></div>
+                    <div><img class="icon" src="css/img/bucket.png"></div>
+                </div><div class="team">
+                   <div class="point" onclick="test1()">Lorem ipsum dolor sit amet </div>
+                   <div><img class="icon" src="css/img/pen.png"/></div>
+                    <div><img class="icon" src="css/img/bucket.png"></div>
+                </div><div class="team">
+                   <div class="point" onclick="test1()">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</div>
+                   <div><img class="icon" src="css/img/pen.png"/></div>
+                    <div><img class="icon" src="css/img/bucket.png"></div>
+                </div>
+               <input class="matrix_add" placeholder="+ add category">
                <textarea class="noteTaskDetails scroll" value="kjkjjnyvy"></textarea>
            </div>
-           <div class="yellow box b_2">
+           <div class="yellow box b_2 scroll">
+               <div class="point" onclick="test2()">Lorem ipsum dolor sit amet</div>
                <div>Lorem ipsum dolor sit amet</div>
                <div>Lorem ipsum dolor sit amet</div>
+               <input class="matrix_add" placeholder="+ add category">
            </div>
            <div class="topic"><div class="vertical">unimportant</div></div>
-           <div class="green box b_3">
+           <div class="green box b_3 scroll">
+               <div class="point" onclick="test3()">Lorem ipsum dolor sit amet</div>
                <div>Lorem ipsum dolor sit amet</div>
                <div>Lorem ipsum dolor sit amet</div>
+               <input class="matrix_add" placeholder="+ add category">
            </div>
-           <div class="blue box b_4">
+           <div class="blue box b_4 scroll">
+               <div class="point" onclick="test4()">Lorem ipsum dolor sit amet</div>
                <div>Lorem ipsum dolor sit amet</div>
                <div>Lorem ipsum dolor sit amet</div>
+               <input class="matrix_add" placeholder="+ add category">
            </div>
             
         </div>
     </main>
 
     <script>
-        function test(){
+        function test1(){
             // document.getElementsByClassName('b_1')[0].styl/e.animation = "show 3s";
             document.getElementsByClassName("b_1")[0].classList.add("anim");
             // document.getElementsByClassName("b_1")[0].innerHTML = "orem ipsum ksjdu lorem asd lorem ipsum ksjdu lorem asd lorem ipsum ksjdu lorem asd";
-
+        }
+        
+        function test2(){
+             document.getElementsByClassName("b_2")[0].classList.add("anim");
+        }
+        
+        function test3(){
+             document.getElementsByClassName("b_3")[0].classList.add("anim");
+        }
+        
+        function test4(){
+             document.getElementsByClassName("b_4")[0].classList.add("anim");
         }
     </script>
 

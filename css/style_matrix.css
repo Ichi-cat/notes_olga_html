@@ -19,7 +19,9 @@ main{
 
 .box{
     display: inline-block;
-
+    text-align: left;
+    padding: 15px;
+    overflow-y: scroll;
     /*transition: transform .15s;*/
 
 }
@@ -81,3 +83,66 @@ main{
     height: 100%;
     resize: none;
 }
+
+.team{
+    padding-left: 5px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: calc(100% - 40px) 20px 20px;
+    border-left: 2px solid white;
+}
+
+.point {
+    display: block;
+    cursor: pointer;
+    transition: color 0.5s linear;
+}
+
+.point:hover{
+    color: #0059ff;
+}
+
+.point:hover:after{
+    display: block;
+}
+
+.icon{
+    height: 15px;
+    text-align: center;
+}
+
+.matrix_add {
+    display: block;
+    background: none;
+    color:  white;
+    text-align: left;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 50%;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: color 0.5s linear, border 0.5s linear, width 0.5s linear;
+    
+}
+
+
+.matrix_add:hover{
+    border: 2px solid #fbdd8a;
+    width: 70%;
+}
+
+.matrix_add:hover:after{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
