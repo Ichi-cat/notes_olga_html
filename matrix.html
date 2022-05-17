@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes</title>
+    <link rel='stylesheet' href="css/style.css">
+    <link rel='stylesheet' href="css/style_matrix.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="conteiner">
+            <div class="header_inner">
+                <div class="header_logo">Note</div>
+                <div class="nav">
+                    <a class="nav_link" href="index.html">home</a>
+                    <a class="nav_link" href="./notes.html">notes</a>
+                    <a class="nav_link" href="matrix.html">matrix</a>
+                    <a class="nav_link" href="./progress.html">progress</a>
+                    <a class="nav_link" href="#">Statistics</a>
+                    <a class="nav_link" href="./registration.html">Login</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="block">
+           <div></div>
+           <div class="topic" onclick="test()">Urgent</div>
+           <div class="topic">Not urgent</div>
+           <div class="topic"><div class="vertical">important</div></div>
+           <div class="pink box b_1">
+<!--               <div>Lorem ipsum dolor sit amet</div>-->
+<!--               <div>Lorem ipsum dolor sit amet</div>-->
+               <textarea class="noteTaskDetails scroll" value="kjkjjnyvy"></textarea>
+           </div>
+           <div class="yellow box b_2">
+               <div>Lorem ipsum dolor sit amet</div>
+               <div>Lorem ipsum dolor sit amet</div>
+           </div>
+           <div class="topic"><div class="vertical">unimportant</div></div>
+           <div class="green box b_3">
+               <div>Lorem ipsum dolor sit amet</div>
+               <div>Lorem ipsum dolor sit amet</div>
+           </div>
+           <div class="blue box b_4">
+               <div>Lorem ipsum dolor sit amet</div>
+               <div>Lorem ipsum dolor sit amet</div>
+           </div>
+            
+        </div>
+    </main>
+
+    <script>
+        function test(){
+            // document.getElementsByClassName('b_1')[0].styl/e.animation = "show 3s";
+            document.getElementsByClassName("b_1")[0].classList.add("anim");
+            // document.getElementsByClassName("b_1")[0].innerHTML = "orem ipsum ksjdu lorem asd lorem ipsum ksjdu lorem asd lorem ipsum ksjdu lorem asd";
+
+        }
+    </script>
+
+</body>
+</html>

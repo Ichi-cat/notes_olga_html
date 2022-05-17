@@ -1,0 +1,141 @@
+@font-face{
+
+    font-family: 'MyWebFont';
+    src: url('fonts/Marykate-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color:#fff;
+    background-color: #05101E;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.conteiner{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*Header*/
+
+.header{
+    padding-top: 30px;
+    width: 100%;
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header_inner{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.header_logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/*Nav*/
+
+.nav{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav_link{
+    color: #fff;
+    text-decoration: none;  
+    transition: color 0.2s linear;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 25px;
+    position: relative;
+}
+
+.nav_link:after{
+    content: "";
+    width: 100%;
+    height: 3px;
+    display: none;
+    background-color: #fbdd8a;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.nav_link:hover{
+    color:#fbdd8a;
+}
+
+.nav_link:hover:after{
+    display: block;
+}
+
+/*footer*/
+
+footer{
+     background-color: #030a14;
+     height: 20vh;
+}
+
+/*color*/
+
+.blue{background: linear-gradient(180deg, #00c6fb, #005bea);}
+
+.pink{background: linear-gradient(180deg, #FF66C4, #b313cc);}
+
+.yellow{background: linear-gradient(180deg, #FACE1E, #fa811e);}
+
+.green{background: linear-gradient(180deg, #7ED957, #0b8600);}
+
+.durk_pink{background-color: #702051;}
+
+.durk_yellow{background-color: #6B5709;}
+
+.durk_green{background-color: #396924;}
+
+
+
+/*Scroll*/
+.scroll::-webkit-scrollbar {
+    width: 10px;
+}
+
+.scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+    border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #00c6fb, #005bea);
+}
+
+
+
+
+

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes</title>
+    <link rel='stylesheet' href="css/style.css">
+    <link rel='stylesheet' href="css/style_notes.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="conteiner">
+            <div class="header_inner">
+                <div class="header_logo">Note</div>
+                <div class="nav">
+                    <a class="nav_link" href="index.html">home</a>
+                    <a class="nav_link" href="./notes.html">notes</a>
+                    <a class="nav_link" href="matrix.html">matrix</a>
+                    <a class="nav_link" href="./progress.html">progress</a>
+                    <a class="nav_link" href="#">Statistics</a>
+                    <a class="nav_link" href="./registration.html">Login</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="block">
+            <div>
+                <div class="categorys">
+                    <div class="category">
+                        <div class="mark blue"></div>
+                        <div class="plus">
+                            <div class="text" onclick="toggle()">Lorem ipsum dolor sit amet</div>
+                            <div><img class="icon" src="css/img/plus.png"></div>
+                            <div><img class="icon" src="css/img/pen.png"/></div>
+                            <div><img class="icon" src="css/img/bucket.png"></div>
+                        </div>
+                        <div></div>
+                        <div class="list scroll">
+                            <div></div>
+                            <div>
+                                <div class="item">
+                                    <div class="text ">123</div>
+                                    <div><img class="icon" src="css/img/pen.png"/></div>
+                                    <div><img class="icon" src="css/img/bucket.png"></div>
+                                </div>
+                                <div class="item">
+                                    <div class="text ">123</div>
+                                    <div><img class="icon" src="css/img/pen.png"/></div>
+                                    <div><img class="icon" src="css/img/bucket.png"></div>
+                                </div>
+                                <div class="item">
+                                    <div class="text ">123</div>
+                                    <div><img class="icon" src="css/img/pen.png"/></div>
+                                    <div><img class="icon" src="css/img/bucket.png"></div>
+                                </div>
+                                <div class="item">
+                                    <div class="text">ijidasdksdk kjf mkasdk dskamsdmmk askdlasklm fndfi</div>
+                                    <div><img class="icon" src="css/img/pen.png"/></div>
+                                    <div><img class="icon" src="css/img/bucket.png"></div>
+                                </div>
+                                <div class="text item">ijidfndfi</div>
+                                <div class="text item">ijidfndfi</div>
+                                <div class="text item">ijidfndfi</div>
+                                <div class="text item">ijidfndfi</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <div class="mark pink"></div>
+                        <div class="text">Lorem ipsum dolor sit amet</div>
+                    </div>
+                    <div class="category">
+                        <div class="mark green"></div>
+                        <div class="text">Lorem ipsum dolor sit amet</div>
+                    </div>
+                    <div class="category">
+                        <div class="mark yellow"></div>
+                        <div class="text">Lorem ipsum dolor sit amet</div>
+                    </div>
+                    <div><input id="button" placeholder="+ add category"></div>
+                </div>
+            </div>
+            <div>
+                <div class="note blue">
+                    <textarea name="" id="noteDetails" class="scroll"></textarea>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        let open = false;
+
+        function toggle(){
+            let element = document.getElementsByClassName("list")[0];
+            if(element.classList.length > 1) {
+                element.classList.remove("active");
+                element.classList.remove("inactive");
+            }
+            if(!open){
+                element.classList.add("active");
+                open = true;
+            } else{
+                element.classList.add("inactive");
+                open = false;
+            }
+            document.getElementsByClassName("text")[0].style.pointerEvents='none';
+            setTimeout(() => document.getElementsByClassName("text")[0].style.pointerEvents='auto', 1000);
+        }
+    </script>
+</body>
+</html>
