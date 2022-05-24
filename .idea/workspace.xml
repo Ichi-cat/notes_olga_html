@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1f297a9-345f-4489-9693-31475660f6d9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/notes_Olga.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style_matrix.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_matrix.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style_notes.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_notes.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style_progress.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_progress.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/matrix.html" beforeDir="false" afterPath="$PROJECT_DIR$/matrix.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/notes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/progress.html" beforeDir="false" afterPath="$PROJECT_DIR$/progress.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +41,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652782984769</updated>
-      <workItem from="1652782986644" duration="1312000" />
+      <workItem from="1652782986644" duration="9383000" />
+      <workItem from="1652804249900" duration="2766000" />
+      <workItem from="1652807823474" duration="341000" />
+      <workItem from="1652863712978" duration="78000" />
     </task>
     <servers />
   </component>

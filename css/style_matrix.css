@@ -106,11 +106,6 @@ main{
     display: block;
 }
 
-.icon{
-    height: 15px;
-    text-align: center;
-}
-
 .matrix_add {
     display: block;
     background: none;
@@ -134,6 +129,7 @@ main{
 .matrix_add:hover:after{
     display: block;
 }
+
 
 
 

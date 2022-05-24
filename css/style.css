@@ -132,10 +132,43 @@ footer{
 
 .scroll::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background: linear-gradient(180deg, #00c6fb, #005bea);
+}
+
+.scroll_blue::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #005bea, #00c6fb);
+}
+
+.scroll_pink::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #b313cc, #FF66C4);
+}
+
+.scroll_yellow::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #fa811e, #FACE1E);
+}
+
+.scroll_green::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #0b8600, #7ED957);
+}
+
+/*icon*/
+.icon{
+    height: 15px;
+    text-align: center;
 }
 
 
+/*date and time*/
+.up_left {
+    display: flex;
+}
+
+.left {
+    margin: 0 5px;
+    padding: 1px 3px;
+    font-size: 10px;
+    background: rgba(0, 0, 0, 0.63);
+    border-radius: 5px;
+}
 
 
 
