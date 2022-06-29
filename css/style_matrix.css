@@ -19,6 +19,7 @@ main{
 
 .box{
     display: inline-block;
+    grid-template-columns: 1fr;
     text-align: left;
     padding: 15px;
     overflow-y: scroll;
@@ -130,7 +131,12 @@ main{
     display: block;
 }
 
-
+.pri_point {
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
 
 
 

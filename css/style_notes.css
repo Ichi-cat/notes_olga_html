@@ -156,3 +156,18 @@ main{
 /*    background: linear-gradient(180deg, #00c6fb, #005bea);*/
 /*}*/
 
+.cat {
+    height: 35px;
+    border-radius: 10px;
+}
+
+.but {
+    height: 35px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.plus_loader {
+    display: grid;
+    grid-template-columns:calc(100% - 60px) 60px
+}
