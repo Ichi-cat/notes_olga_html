@@ -99,18 +99,16 @@ main{
     text-align: left;
     border: 2px solid #ccc;
     border-radius: 10px;
-    width: 50%;
-    height: 130%;
-    margin-left: 20px;
+    height: 30px;
+    width: 300px;
     cursor: pointer;
-    transition: color 0.5s linear, border 0.5s linear, width 0.5s linear;
+    transition: color 0.5s linear, border 0.5s linear;
 
 }
 
 #button:hover{
     color: #fbdd8a;
     border: 2px solid #fbdd8a;
-    width: 70%;
 }
 
 #button:hover:after{
@@ -170,4 +168,29 @@ main{
 .plus_loader {
     display: grid;
     grid-template-columns:calc(100% - 60px) 60px
+}
+
+#pre-button{display: grid;
+    grid-template-columns: calc(100% - 20px) 10px;
+}
+
+.max_color{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+    width: 100px;
+    height: 45px;
+    padding: 3px;
+    position: relative;
+    right: 100px;
+    bottom: 25px;
+    background: rgba(255, 255, 255, 0.56);
+    border-radius: 3px;
+}
+
+.color_circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
 }
